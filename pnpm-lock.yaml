@@ -252,7 +252,7 @@ dependencies:
 optionalDependencies:
   macos-notification-state:
     specifier: github:ferdium/macos-notification-state#e0e78c3aff1a9d2362709dff70d01d3eaef4ee6a
-    version: github.com/ferdium/macos-notification-state/e0e78c3aff1a9d2362709dff70d01d3eaef4ee6a
+    version: git@github.com+ferdium/macos-notification-state/e0e78c3aff1a9d2362709dff70d01d3eaef4ee6a
   node-mac-permissions:
     specifier: 2.3.0
     version: 2.3.0
@@ -4112,7 +4112,7 @@ packages:
       chromium-pickle-js: 0.2.0
       debug: 4.3.4(supports-color@5.5.0)
       dmg-builder: 24.13.3(electron-builder-squirrel-windows@24.13.3)
-      ejs: 3.1.9
+      ejs: 3.1.10
       electron-builder-squirrel-windows: 24.13.3(dmg-builder@24.13.3)
       electron-publish: 24.13.1
       form-data: 4.0.0
@@ -6117,8 +6117,8 @@ packages:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
     dev: false
 
-  /ejs@3.1.9:
-    resolution: {integrity: sha512-rC+QVNMJWv+MtPgkt0y+0rVEIdbtxVADApW9JXrUVlzHetgcyczP/E7DJmWJ4fJCZF2cPcBk0laWO9ZHMG3DmQ==}
+  /ejs@3.1.10:
+    resolution: {integrity: sha512-UeJmFfOrAQS8OJWPZ4qtgHyWExa088/MtK5UEyoJGFH67cDEXkZSviOiKRCZ4Xij0zxI3JECgYs3oKx+AizQBA==}
     engines: {node: '>=0.10.0'}
     hasBin: true
     dependencies:
@@ -7950,7 +7950,7 @@ packages:
     dependencies:
       foreground-child: 3.1.1
       jackspeak: 2.3.6
-      minimatch: 9.0.3
+      minimatch: 9.0.4
       minipass: 7.0.4
       path-scurry: 1.10.1
     dev: true
@@ -14636,8 +14636,8 @@ packages:
       readable-stream: 3.6.2
     dev: true
 
-  github.com/ferdium/macos-notification-state/e0e78c3aff1a9d2362709dff70d01d3eaef4ee6a:
-    resolution: {tarball: https://codeload.github.com/ferdium/macos-notification-state/tar.gz/e0e78c3aff1a9d2362709dff70d01d3eaef4ee6a}
+  git@github.com+ferdium/macos-notification-state/e0e78c3aff1a9d2362709dff70d01d3eaef4ee6a:
+    resolution: {commit: e0e78c3aff1a9d2362709dff70d01d3eaef4ee6a, repo: git@github.com:ferdium/macos-notification-state.git, type: git}
     name: macos-notification-state
     version: 3.0.0
     os: [darwin]
